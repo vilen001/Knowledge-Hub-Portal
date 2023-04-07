@@ -1,0 +1,16 @@
+﻿@model KHP.Domain.Model.Catagory ;
+<h1>Edit catagory</h1>
+<form asp-action="Update">
+
+    <input type="hidden" asp-for="CatagoryId" value="@Model.CatagoryId" />
+
+    <input asp-for="Name" type="text" placeholder="Enter Catagory Name" /><br />
+    <span asp-validation-for="Name"></span><br />
+
+    <textarea asp-for="Description" placeholder="Enter Description" rows="6" cols="60"></textarea><br />
+    <span asp-validation-for="Description"></span><br />
+
+    <input type="submit" name="btnsubmit" value="Edit" />
+</form>
+<br />
+<a asp-action="Index" asp-controller="Catagory" class="btn btn-warning">Back to Manage Catagory</a>

@@ -1,0 +1,37 @@
+﻿@model List<KHP.Domain.Model.Catagory>
+
+    <h1 class="display-1">Manage Catagories</h1>
+    <hr />
+    <a asp-action="Create" asp-controller="Catagory" class="btn btn-warning">Create new Catagory</a>
+    <br /><br />
+    <form asp-action="Index">
+        <input type="text" name="searchText" placeholder="Enter Text to serach" />
+        <input type="submit" name="btnSumbmit" value="Search" class="btn btn-primary" />
+    </form>
+
+    <h3> @TempData["Message"]</h3>
+
+<table class="table table-hover">
+        
+        <tr class="table-light ">
+        <th style="color:black">Catagory Id</th>
+        <th style="color:black">Name</th>
+        <th style="color:black">Description</th>
+        <th style="color:black">Edit</th>
+        <th style="color:black">Delete</th>
+           </tr>
+           
+       </thead>
+       <tbody>
+        @foreach(var item in Model)
+        {
+            <tr class="table-dark">
+                <td>@item.CatagoryId</td>     
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td><a asp-action="Edit" asp-controller="Catagory" asp-route-id="@item.CatagoryId" class="btn btn-outline-primary">Edit</a></td>
+                <td><a asp-action="Delete" asp-controller="Catagory" asp-route-id="@item.CatagoryId" class="btn btn-outline-primary">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

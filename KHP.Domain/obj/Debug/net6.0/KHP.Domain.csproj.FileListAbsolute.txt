@@ -1,0 +1,12 @@
+C:\Users\hammad\source\repos\1\KHPPractice.MVC\KHP.Domain\bin\Debug\net6.0\KHP.Domain.deps.json
+C:\Users\hammad\source\repos\1\KHPPractice.MVC\KHP.Domain\bin\Debug\net6.0\KHP.Domain.dll
+C:\Users\hammad\source\repos\1\KHPPractice.MVC\KHP.Domain\bin\Debug\net6.0\KHP.Domain.pdb
+C:\Users\hammad\source\repos\1\KHPPractice.MVC\KHP.Domain\obj\Debug\net6.0\KHP.Domain.csproj.AssemblyReference.cache
+C:\Users\hammad\source\repos\1\KHPPractice.MVC\KHP.Domain\obj\Debug\net6.0\KHP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hammad\source\repos\1\KHPPractice.MVC\KHP.Domain\obj\Debug\net6.0\KHP.Domain.AssemblyInfoInputs.cache
+C:\Users\hammad\source\repos\1\KHPPractice.MVC\KHP.Domain\obj\Debug\net6.0\KHP.Domain.AssemblyInfo.cs
+C:\Users\hammad\source\repos\1\KHPPractice.MVC\KHP.Domain\obj\Debug\net6.0\KHP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\hammad\source\repos\1\KHPPractice.MVC\KHP.Domain\obj\Debug\net6.0\KHP.Domain.dll
+C:\Users\hammad\source\repos\1\KHPPractice.MVC\KHP.Domain\obj\Debug\net6.0\refint\KHP.Domain.dll
+C:\Users\hammad\source\repos\1\KHPPractice.MVC\KHP.Domain\obj\Debug\net6.0\KHP.Domain.pdb
+C:\Users\hammad\source\repos\1\KHPPractice.MVC\KHP.Domain\obj\Debug\net6.0\ref\KHP.Domain.dll

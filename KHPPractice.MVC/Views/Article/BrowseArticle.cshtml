@@ -1,0 +1,51 @@
+﻿@model IEnumerable<KHPPractice.MVC.Models.Article>
+
+<form asp-action="BrowseArticle">
+    <input type="text" name="searchText" placeholder="Enter Text to serach" />
+    <input type="submit" name="btnSumbmit" value="Search" class="btn btn-primary" />
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+
+             <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.URL)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.PostedBy)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    <a href="@item.URL" target="_blank">@item.URL</a>
+                </td>
+           
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostedBy)
+                </td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>

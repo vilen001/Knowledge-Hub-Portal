@@ -1,0 +1,22 @@
+﻿@model KHP.Domain.Model.Catagory
+
+
+@*<form action="/Catagory/Save" method="post" >*@
+<form action="Save" >
+
+    <input asp-for="Name" type="text" style="background-color:white;" placeholder="Enter Catagory Name" /><br />
+    <span asp-validation-for="Name" ></span><br />
+
+    <textarea asp-for="Description" style="background-color:white;" placeholder="Enter Description" rows="6" cols="60" ></textarea><br />
+    <span asp-validation-for="Description"></span><br />
+
+    <input type="submit" name="btnsubmit" value="Create" />
+
+</form>
+<br />
+<a asp-action="Index" asp-controller="Catagory" class="btn btn-warning">Back to Manage Catagory</a>
+
+@section Scripts
+{
+<partial name="_ValidationScriptsPartial" />
+}
