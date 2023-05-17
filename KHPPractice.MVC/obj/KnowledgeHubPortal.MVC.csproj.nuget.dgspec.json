@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mayan\\Downloads\\Git\\KHP\\Knowledge-Hub-Portal\\KHPPractice.MVC\\KnowledgeHubPortal.MVC.csproj": {}
+    "C:\\Users\\mayan\\OneDrive\\Desktop\\New folder (3)\\Knowledge-Hub-Portal\\KHPPractice.MVC\\KnowledgeHubPortal.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mayan\\Downloads\\Git\\KHP\\Knowledge-Hub-Portal\\KHPPractice.MVC\\KnowledgeHubPortal.MVC.csproj": {
+    "C:\\Users\\mayan\\OneDrive\\Desktop\\New folder (3)\\Knowledge-Hub-Portal\\KHPPractice.MVC\\KnowledgeHubPortal.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayan\\Downloads\\Git\\KHP\\Knowledge-Hub-Portal\\KHPPractice.MVC\\KnowledgeHubPortal.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\mayan\\OneDrive\\Desktop\\New folder (3)\\Knowledge-Hub-Portal\\KHPPractice.MVC\\KnowledgeHubPortal.MVC.csproj",
         "projectName": "KnowledgeHubPortal.MVC",
-        "projectPath": "C:\\Users\\mayan\\Downloads\\Git\\KHP\\Knowledge-Hub-Portal\\KHPPractice.MVC\\KnowledgeHubPortal.MVC.csproj",
+        "projectPath": "C:\\Users\\mayan\\OneDrive\\Desktop\\New folder (3)\\Knowledge-Hub-Portal\\KHPPractice.MVC\\KnowledgeHubPortal.MVC.csproj",
         "packagesPath": "C:\\Users\\mayan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayan\\Downloads\\Git\\KHP\\Knowledge-Hub-Portal\\KHPPractice.MVC\\obj\\",
+        "outputPath": "C:\\Users\\mayan\\OneDrive\\Desktop\\New folder (3)\\Knowledge-Hub-Portal\\KHPPractice.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
